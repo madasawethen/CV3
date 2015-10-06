@@ -1,0 +1,34 @@
+body {
+	font-family: "Roboto", Arial, sans-serif;
+
+}
+
+header {
+	width: 80%;
+	margin: 0 auto;
+}
+
+section {
+	padding: 0 10%;
+}
+
+h4 span {
+	float: right;
+}
+
+.expandable {
+	display: none;
+}
+
+#mti {
+	background-color: red;
+}
+
+#theatre {
+	background-color: yellow;
+}
+
+#other {
+	background-color: blue;
+}
+
