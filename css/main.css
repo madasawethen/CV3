@@ -20,6 +20,18 @@ h4 span {
 	display: none;
 }
 
+.expandable nav a.current {
+	color: #ffffff;
+}
+
+.expandable div {
+	display: none;
+}
+
+.expandable div.current {
+	display: block;
+}
+
 #mti {
 	background-color: red;
 }
