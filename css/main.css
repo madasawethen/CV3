@@ -24,11 +24,11 @@ h4 span {
 	color: #ffffff;
 }
 
-.expandable div {
+.expandable .slides div {
 	display: none;
 }
 
-.expandable div.current {
+.expandable .slides div.current {
 	display: block;
 }
 
@@ -43,4 +43,24 @@ h4 span {
 #other {
 	background-color: blue;
 }
+
+body.theme1 {
+	font-family: Arial;
+}
+
+body.theme1 #mti {
+	background-color: purple;
+}
+
+body.theme1 #theatre {
+	background-color: green;
+}
+
+body.theme1 #other {
+	background-color: pink;
+}
+
+/*Tzip: need to create themes for the resume divs, what changes per section 
+f the portfolio page, and create said value/attributes in the css, finish the 
+layout of the resume page and start layout of homepage*/
 

@@ -7,6 +7,10 @@ $( document ).ready(function() {
 
 			$(this).next().addClass("open");
 			$(".open").slideDown(400);
+
+			if($(this).parent().attr("id") == "mti") {
+			$(this).next().find("nav a").eq(0).trigger("click");
+			}
 		}
 
 		else {
@@ -21,7 +25,8 @@ $( document ).ready(function() {
 
 		$(this).addClass("current");
 		var mti_nav = $(this).index();
-		$(".expandable div").eq(mti_nav).addClass("current");
+		// $(".expandable div").eq(mti_nav).addClass("current");
+		$(this).parents(".expandable").find(".slides div").eq(mti_nav).addClass("current");
 
 	}); 
 
@@ -39,4 +44,4 @@ $( document ).ready(function() {
 
 });
 
-// add a different class to the divs, or wrap all the divs inside of another div
+
