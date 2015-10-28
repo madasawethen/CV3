@@ -44,20 +44,144 @@ h4 span {
 	background-color: blue;
 }
 
+/*DRAFT THEME*/
+
 body.theme1 {
-	font-family: Arial;
+	font-family: Brandon-Grotesque, Arial;
+	color: #000000;
+	background-color: #f3f3f3;
 }
 
 body.theme1 #mti {
-	background-color: purple;
+	background-color: #f3f3f3;
 }
 
 body.theme1 #theatre {
-	background-color: green;
+	background-color: #f3f3f3;
 }
 
 body.theme1 #other {
-	background-color: pink;
+	background-color: #f3f3f3;
+}
+
+/*GLITTER THEME*/
+
+body.theme2 {
+	font-family: Brandon-Grotesque, Arial;
+	color: #fd2578;
+	background-image: url("cinegraph");
+}
+
+body.theme2 #mti {
+	background-image: url("cinegraph");
+}
+
+body.theme2 #theatre {
+	background-image: url("cinegraph");
+}
+
+body.theme2 #other {
+	background-image: url("cinegraph");
+}
+
+/*DRUNK THEME*/
+
+body.theme3 {
+	font-family: Brandon-Grotesque, Arial;
+	color: #044c95;
+	background-color: #ffffff;
+}
+
+body.theme3 #mti {
+	background-color: #ffffff;
+}
+
+body.theme3 #theatre {
+	background-color: #ffffff;
+}
+
+body.theme3 #other {
+	background-color: #ffffff;
+}
+
+/*SAD THEME*/
+
+body.theme4 {
+	font-family: Brandon-Grotesque, Arial;
+	color: #ffffff;
+	background-image: url("cinegraph");
+}
+
+body.theme4 #mti {
+	background-image: url("cinegraph");
+}
+
+body.theme4 #theatre {
+	background-image: url("cinegraph");
+}
+
+body.theme4 #other {
+	background-image: url("cinegraph");
+}
+
+/*DICTIONARY THEME*/
+
+body.theme5 {
+	font-family: Brandon-Grotesque, Arial;
+	color: #ffffff;
+	background-image: url("image");
+}
+
+body.theme5 #mti {
+	background-image: url("image");
+}
+
+body.theme5 #theatre {
+	background-image: url("image");
+}
+
+body.theme5 #other {
+	background-image: url("image");
+}
+
+/*PROFESSIONAL THEME*/
+
+body.theme6 {
+	font-family: Brandon-Grotesque, Arial;
+	color: #000000;
+	background-color: #f3f3f3;
+}
+
+body.theme6 #mti {
+	background-color: #f3f3f3;
+}
+
+body.theme6 #theatre {
+	background-color: #f3f3f3;
+}
+
+body.theme6 #other {
+	background-color: #f3f3f3;
+}
+
+/*SPARKLY THEME*/
+
+body.theme7 {
+	font-family: Brandon-Grotesque, Arial;
+	color: #ffffff;
+	background-image: url("cinegraph");
+}
+
+body.theme7 #mti {
+	background-image: url("cinegraph");
+}
+
+body.theme7 #theatre {
+	background-image: url("cinegraph");
+}
+
+body.theme7 #other {
+	background-image: url("cinegraph");
 }
 
 /*Tzip: need to create themes for the resume divs, what changes per section 
