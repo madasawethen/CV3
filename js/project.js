@@ -42,6 +42,26 @@ $( document ).ready(function() {
 		$(".expandable.open").parent().next().find("h4").trigger("click");
 	});
 
+	$("#theme section").click(function(){
+		var love = "resume.html?theme=" + $(this).attr("class");
+		// window.location.replace(love);
+		window.location.href = love;
+	});
+
+	if ($("body").attr("id") == "resume") {
+	
+
+	}
+
+
+
+
+
+  // var hash = window.location.hash,
+  // hash_parts = hash.split("/"),
+  // filter = hash_parts[0].slice(1),
+  // link_attr = ".tag-" + filter;
+
 });
 
 

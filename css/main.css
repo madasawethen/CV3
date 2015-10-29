@@ -69,19 +69,23 @@ body.theme1 #other {
 body.theme2 {
 	font-family: Brandon-Grotesque, Arial;
 	color: #fd2578;
-	background-image: url("cinegraph");
+	background-color: blue;
+	background-image: url("gif");
 }
 
 body.theme2 #mti {
-	background-image: url("cinegraph");
+	background-color: blue;
+	background-image: url("gif");
 }
 
 body.theme2 #theatre {
-	background-image: url("cinegraph");
+	background-color: blue;
+	background-image: url("gif");
 }
 
 body.theme2 #other {
-	background-image: url("cinegraph");
+	background-color: blue;
+	background-image: url("gif");
 }
 
 /*DRUNK THEME*/
@@ -109,19 +113,23 @@ body.theme3 #other {
 body.theme4 {
 	font-family: Brandon-Grotesque, Arial;
 	color: #ffffff;
-	background-image: url("cinegraph");
+	background-color: yellow;
+	background-image: url("gif");
 }
 
 body.theme4 #mti {
-	background-image: url("cinegraph");
+	background-color: yellow;
+	background-image: url("gif");
 }
 
 body.theme4 #theatre {
-	background-image: url("cinegraph");
+	background-color: yellow;
+	background-image: url("gif");
 }
 
 body.theme4 #other {
-	background-image: url("cinegraph");
+	background-color: yellow;
+	background-image: url("gif");
 }
 
 /*DICTIONARY THEME*/
@@ -129,18 +137,22 @@ body.theme4 #other {
 body.theme5 {
 	font-family: Brandon-Grotesque, Arial;
 	color: #ffffff;
+	background-color: purple;
 	background-image: url("image");
 }
 
 body.theme5 #mti {
+	background-color: purple;
 	background-image: url("image");
 }
 
 body.theme5 #theatre {
+	background-color: purple;
 	background-image: url("image");
 }
 
 body.theme5 #other {
+	background-color: purple;
 	background-image: url("image");
 }
 
@@ -169,19 +181,23 @@ body.theme6 #other {
 body.theme7 {
 	font-family: Brandon-Grotesque, Arial;
 	color: #ffffff;
-	background-image: url("cinegraph");
+	background-color: red;
+	background-image: url("gif");
 }
 
 body.theme7 #mti {
-	background-image: url("cinegraph");
+	background-color: red;
+	background-image: url("gif");
 }
 
 body.theme7 #theatre {
-	background-image: url("cinegraph");
+	background-color: red;
+	background-image: url("gif");
 }
 
 body.theme7 #other {
-	background-image: url("cinegraph");
+	background-color: red;
+	background-image: url("gif");
 }
 
 /*Tzip: need to create themes for the resume divs, what changes per section 
