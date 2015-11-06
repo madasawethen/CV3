@@ -48,19 +48,15 @@ $( document ).ready(function() {
 		window.location.href = love;
 	});
 
-	if ($("body").attr("id") == "resume") {
-	
 
-	}
+    if ($("body").attr("id") == "resume") {
+        var something = window.location.href;
+        var classname = something.substring(something.indexOf("=")+1);
+        if (classname != "") {
+            $("body").addClass(classname);
+        }
+    }
 
-
-
-
-
-  // var hash = window.location.hash,
-  // hash_parts = hash.split("/"),
-  // filter = hash_parts[0].slice(1),
-  // link_attr = ".tag-" + filter;
 
 });
 
