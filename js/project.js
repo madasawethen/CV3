@@ -43,9 +43,11 @@ $( document ).ready(function() {
 	});
 
 	$("#theme section").click(function(){
+		if(!$(this).hasClass("preview")) { 
 		var love = "resume.html?theme=" + $(this).attr("class");
 		// window.location.replace(love);
 		window.location.href = love;
+		}
 	});
 
 
