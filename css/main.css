@@ -1,7 +1,16 @@
+@import url("theme1.css");
+@import url("theme2.css");
+@import url("theme3.css");
+@import url("theme4.css");
+@import url("theme5.css");
+@import url("theme6.css");
+@import url("theme7.css");
+
 body {
-	font-family: "Roboto", Arial, sans-serif;
+	font-family: "Brandon Grotesque", Arial, sans-serif;
 	background-color: #ffffff;
 	font-size: 24px;
+	line-height: 1.4;
 
 }
 
@@ -44,6 +53,10 @@ nav {
 	font-weight: 400;
 }
 
+strong {
+	font-weight: 700;
+}
+
 nav a:hover, nav a:active, nav a.current {
 	color: #ff149a;
 }
@@ -56,11 +69,11 @@ nav a:hover, nav a:active, nav a.current {
 	color: #ffffff;
 }
 
-.expandable .slides div {
+.expandable .slides > div {
 	display: none;
 }
 
-.expandable .slides div.current {
+.expandable .slides > div.current {
 	display: block;
 }
 
@@ -72,198 +85,17 @@ nav a:hover, nav a:active, nav a.current {
 	background-color: #ffffff;
 }
 
-#other {
-	background-color: #ffffff;
+
+/*.bg {
+  color: inherit;
 }
 
-/*SECTION THEMES - */
-
-/*DRAFT THEME*/
-
-section.theme1 {
-	background-color: #f3f3f3;
-	color: #000000;
+.magenta {
+  color: #ff00ff;
 }
 
-body.theme1 {
-	font-family: Brandon-Grotesque, Arial;
-	color: #000000;
-	background-color: #f3f3f3;
-}
+.magenta.bg {
+  background-color: #ff00ff;
+}*/
 
-body.theme1 #mti {
-	background-color: #f3f3f3;
-}
-
-body.theme1 #theatre {
-	background-color: #f3f3f3;
-}
-
-body.theme1 #other {
-	background-color: #f3f3f3;
-}
-
-/*GLITTER THEME*/
-
-section.theme2 {
-	background-size: 100%;
-	background-image: url("../img/Shrek_background_4C.png");
-	color: #ff149a;
-
-}
-
-body.theme2 {
-	font-family: Brandon-Grotesque, Arial;
-	color: #fd2578;
-	background-color: blue;
-	background-image: url("gif");
-}
-
-body.theme2 #mti {
-	background-color: blue;
-	background-image: url("gif");
-}
-
-body.theme2 #theatre {
-	background-color: blue;
-	background-image: url("gif");
-}
-
-body.theme2 #other {
-	background-color: blue;
-	background-image: url("gif");
-}
-
-/*DRUNK THEME*/
-
-section.theme3 {
-	background-color: white;
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-size: 20em;
-	background-image: url("../img/Leo_eyes.png");
-	color: #0562bc;
-
-}
-
-body.theme3 {
-	font-family: Brandon-Grotesque, Arial;
-	color: #044c95;
-	background-color: #ffffff;
-}
-
-body.theme3 #mti {
-	background-color: #ffffff;
-}
-
-body.theme3 #theatre {
-	background-color: #ffffff;
-}
-
-body.theme3 #other {
-	background-color: #ffffff;
-}
-
-/*SAD THEME*/
-
-section.theme4 {
-	background-size: 100%;
-	background-image: url("../img/rain_background.png");
-	color: #ffffff;
-
-}
-
-body.theme4 {
-	font-family: Brandon-Grotesque, Arial;
-	color: #ffffff;
-	background-color: yellow;
-	background-image: url("gif");
-}
-
-body.theme4 #mti {
-	background-color: yellow;
-	background-image: url("gif");
-}
-
-body.theme4 #theatre {
-	background-color: yellow;
-	background-image: url("gif");
-}
-
-body.theme4 #other {
-	background-color: yellow;
-	background-image: url("gif");
-}
-
-/*DICTIONARY THEME*/
-
-body.theme5 {
-	font-family: Brandon-Grotesque, Arial;
-	color: #ffffff;
-	background-color: purple;
-	background-image: url("image");
-}
-
-body.theme5 #mti {
-	background-color: purple;
-	background-image: url("image");
-}
-
-body.theme5 #theatre {
-	background-color: purple;
-	background-image: url("image");
-}
-
-body.theme5 #other {
-	background-color: purple;
-	background-image: url("image");
-}
-
-/*PROFESSIONAL THEME*/
-
-body.theme6 {
-	font-family: Brandon-Grotesque, Arial;
-	color: #000000;
-	background-color: #f3f3f3;
-}
-
-body.theme6 #mti {
-	background-color: #f3f3f3;
-}
-
-body.theme6 #theatre {
-	background-color: #f3f3f3;
-}
-
-body.theme6 #other {
-	background-color: #f3f3f3;
-}
-
-/*SPARKLY THEME*/
-
-body.theme7 {
-	font-family: Brandon-Grotesque, Arial;
-	color: #ffffff;
-	background-color: red;
-	background-image: url("gif");
-}
-
-body.theme7 #mti {
-	background-color: red;
-	background-image: url("gif");
-}
-
-body.theme7 #theatre {
-	background-color: red;
-	background-image: url("gif");
-}
-
-body.theme7 #other {
-	background-color: red;
-	background-image: url("gif");
-}
-
-/*Tzip: need to create themes for the resume divs, what changes per section 
-f the portfolio page, and create said value/attributes in the css, finish the 
-layout of the resume page and start layout of homepage*/
 

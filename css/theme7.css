@@ -1,0 +1,65 @@
+
+
+/*SECTION THEMES - */
+
+/*FIRST PROFESSIONAL THEME*/
+
+section.theme7 {
+	background-color: #f3f3f3;
+	color: #000000;
+}
+
+body.theme7 {
+	color: #000000;
+	/*background-color: #f3f3f3;*/
+}
+
+body.theme7 .expandable .slides .slides-inner {
+	margin: 0 2em 2em;
+}
+
+body.theme7 .expandable nav {
+	float: right;
+	margin: 2em 0;
+}
+
+body.theme7 h3 {
+	font-weight: 400;
+	color: #b0b0b0;
+}
+
+body.theme7 h4 {
+	font-weight: 400;
+}
+
+body.theme7 h5 {
+	font-weight: 900;
+	margin: 2em 0;
+}
+
+body.theme7 p {
+	font-weight: 300;
+	font-size: .75em;
+	padding-bottom: 2em;
+}
+
+body.theme7 .slides-inner img {
+	display: block;
+	float: left;
+	width: 25%;
+/*	margin-right: 2%;
+*/}
+
+body.theme7 .slides-inner img:last-of-type {
+/*	margin-right: 0;*/
+}
+
+body.theme7 #mti {
+	background-color: #f3f3f3;
+}
+
+body.theme7 #theatre {
+	background-color: #e5e4e4;
+}
+
+

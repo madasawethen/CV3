@@ -1,0 +1,70 @@
+
+
+/*SECTION THEMES - */
+
+/*FIRST PROFESSIONAL THEME*/
+
+section.theme3 {
+	background-color: white;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 20em;
+	background-image: url("../img/Leo_eyes.png");
+	color: #0562bc;
+
+}
+
+body.theme3 {
+	color: #000000;
+	/*background-color: #f3f3f3;*/
+}
+
+body.theme3 .expandable .slides .slides-inner {
+	margin: 0 2em 2em;
+}
+
+body.theme3 .expandable nav {
+	float: right;
+	margin: 2em 0;
+}
+
+body.theme3 h3 {
+	font-weight: 400;
+	color: #b0b0b0;
+}
+
+body.theme3 h4 {
+	font-weight: 400;
+}
+
+body.theme3 h5 {
+	font-weight: 900;
+	margin: 2em 0;
+}
+
+body.theme3 p {
+	font-weight: 300;
+	font-size: .75em;
+	padding-bottom: 2em;
+}
+
+body.theme3 .slides-inner img {
+	display: block;
+	float: left;
+	width: 25%;
+/*	margin-right: 2%;
+*/}
+
+body.theme3 .slides-inner img:last-of-type {
+/*	margin-right: 0;*/
+}
+
+body.theme3 #mti {
+	background-color: #f3f3f3;
+}
+
+body.theme3 #theatre {
+	background-color: #e5e4e4;
+}
+
+
