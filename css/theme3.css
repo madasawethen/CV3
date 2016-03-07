@@ -2,15 +2,14 @@
 
 /*SECTION THEMES - */
 
-/*FIRST PROFESSIONAL THEME*/
+/*sad rain THEME*/
 
 section.theme3 {
-	background-color: white;
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-size: 20em;
-	background-image: url("../img/Leo_eyes.png");
-	color: #0562bc;
+	font-family: "proxima-nova", Arial, sans-serif;
+	font-size: 600;
+	background-size: 100%;
+	background-image: url("../img/rain_background.png");
+	color: #ffffff;
 
 }
 

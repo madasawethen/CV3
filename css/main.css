@@ -1,10 +1,9 @@
+@import url("theme0.css");
 @import url("theme1.css");
 @import url("theme2.css");
 @import url("theme3.css");
 @import url("theme4.css");
 @import url("theme5.css");
-@import url("theme6.css");
-@import url("theme7.css");
 
 body {
 	font-family: "Brandon Grotesque", Arial, sans-serif;
@@ -66,7 +65,7 @@ nav a:hover, nav a:active, nav a.current {
 }
 
 .expandable nav a.current {
-	color: #ffffff;
+	color: #000000;
 }
 
 .expandable .slides > div {
@@ -76,26 +75,3 @@ nav a:hover, nav a:active, nav a.current {
 .expandable .slides > div.current {
 	display: block;
 }
-
-#mti {
-	background-color: #ffffff;
-}
-
-#theatre {
-	background-color: #ffffff;
-}
-
-
-/*.bg {
-  color: inherit;
-}
-
-.magenta {
-  color: #ff00ff;
-}
-
-.magenta.bg {
-  background-color: #ff00ff;
-}*/
-
-

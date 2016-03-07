@@ -1,14 +1,25 @@
 
+/*SECTION THEMES - */
+
+/*drunk THEME*/
+
 section.theme2 {
-	background-size: 100%;
-	background-image: url("../img/Shrek_background_4C.png");
-	color: #ff149a;
+	font-family: "effra", Arial, sans-serif;
+	font-weight: 900;
+	background-color: white;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 20em;
+	background-image: url("../img/Leo_eyes.png");
+	color: #bfbfbf;
 
 }
 
 body.theme2 {
-	color: #000000;
-	/*background-color: #f3f3f3;*/
+	font-family: "effra", Arial, sans-serif;
+	background-color: #ffffff;
+	font-size: 24px;
+	line-height: 1.4;
 }
 
 body.theme2 .expandable .slides .slides-inner {
@@ -21,12 +32,12 @@ body.theme2 .expandable nav {
 }
 
 body.theme2 h3 {
-	font-weight: 400;
+	font-weight: 900;
 	color: #b0b0b0;
 }
 
 body.theme2 h4 {
-	font-weight: 400;
+	font-weight: 900;
 }
 
 body.theme2 h5 {

@@ -55,6 +55,7 @@ $( document ).ready(function() {
         var something = window.location.href;
         var classname = something.substring(something.indexOf("=")+1);
         if (classname != "") {
+            $("body").removeClass();
             $("body").addClass(classname);
         }
     }
