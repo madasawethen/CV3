@@ -4,6 +4,7 @@
 @import url("theme3.css");
 @import url("theme4.css");
 @import url("theme5.css");
+@import url("animate.css");
 
 body {
 	font-family: "Brandon Grotesque", Arial, sans-serif;
@@ -62,6 +63,7 @@ nav a:hover, nav a:active, nav a.current {
 
 .expandable {
 	display: none;
+	position: relative;
 }
 
 .expandable nav a.current {

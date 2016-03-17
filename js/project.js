@@ -7,6 +7,7 @@ $( document ).ready(function() {
 
 			$(this).next().addClass("open");
 			$(".open").slideDown(400);
+			drunkHeight();
 
 			if($(this).parent().attr("id") == "mti") {
 			$(this).next().find("nav a").eq(0).trigger("click");
@@ -59,6 +60,47 @@ $( document ).ready(function() {
             $("body").addClass(classname);
         }
     }
+    		 
+		    $("#next").click(function(e){
+		  e.preventDefault();
+		 var wrapperwidth = $("#wrapper").width();
+		 drunkHeight();
+		  $("span").hide();
+		    $("#slides").animate({left: "-="+wrapperwidth}, 500, function(){
+		    $("span").each(function(){
+		      $(this).fadeIn($(this).data("speed"));
+		    });
+		  });
+		});
+
+		$("#prev").click(function(e){
+		  e.preventDefault();
+		  var wrapperwidth = $("#wrapper").width();
+		  drunkHeight();
+		  $("span").hide();
+		    $("#slides").animate({left: "+="+wrapperwidth}, 500, function(){
+		    $("span").each(function(){
+		      $(this).fadeIn($(this).data("speed"));
+		    });
+		  });
+		});
+
+			function drunkHeight() {
+			  var wrapperWidth = $("#wrapper").width();
+			  var newHeight = wrapperWidth * .6;
+			  	$("#wrapper").height(newHeight);
+  				$("#slides").height(newHeight);
+  				$(".slide").height(newHeight);
+  				$(".slide img").height(newHeight);
+			}
+
+			drunkHeight();
+
+			$(window).resize(function(){
+				$("#slides").stop().animate({left: 0}, 500);
+			  drunkHeight();
+			});
+
 
 
 });
