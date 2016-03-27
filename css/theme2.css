@@ -7,72 +7,18 @@ section.theme2 {
 	font-family: "effra", Arial, sans-serif;
 	font-weight: 900;
 	background-color: white;
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-size: 20em;
-	background-image: url("../img/Leo_eyes.png");
+
 	color: #bfbfbf;
 
 }
 
-body.theme2 {
-	font-family: "effra", Arial, sans-serif;
-	background-color: #ffffff;
-	font-size: 24px;
-	line-height: 1.4;
+section.theme2.leo {
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 20em;
+	background-image: url("../img/Leo_eyes.png");
 }
 
-body.theme2 .expandable .slides .slides-inner {
-	margin: 0 2em 2em;
-}
-
-body.theme2 .expandable nav {
-	float: right;
-	margin: 2em 0;
-}
-
-body.theme2 h3 {
-	font-weight: 900;
-	color: #b0b0b0;
-}
-
-body.theme2 h4 {
-	font-weight: 900;
-}
-
-body.theme2 h5 {
-	font-weight: 900;
-	margin: 2em 0;
-}
-
-body.theme2 p {
-	font-weight: 300;
-	font-size: .75em;
-	padding-bottom: 2em;
-}
-
-body.theme2 .slides-inner img {
-	display: block;
-	float: left;
-	width: 25%;
-/*	margin-right: 2%;
-*/}
-
-body.theme2 .slides-inner img:last-of-type {
-/*	margin-right: 0;*/
-}
-
-body.theme2 #mti {
-	background-color: #f3f3f3;
-}
-
-body.theme2 #theatre {
-	background-color: #e5e4e4;
-}
-
-body {
-  background-color: #ccc;
-}
 
 #next, #prev {
   position: absolute;
@@ -110,7 +56,6 @@ body {
 .slide {
   width: 33.333%;
   height: 600px;
-  line-height: 600px;
   text-align: center;
   font-size: 80px;
   float: left;
@@ -126,9 +71,10 @@ body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	top: 0;
+	top: 33%;
 	left: 0;
 	font-size: 10vw;
+	color: #ffffff;
 }
 
 .halves span {
@@ -151,6 +97,8 @@ body {
 .slide h3 span {
 	display: inline-block;
 }
+
+
 
 
 
