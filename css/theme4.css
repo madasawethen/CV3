@@ -6,7 +6,9 @@
 
 section.theme4 {
 	background-size: 100%;
-	background-image: url("../img/Shrek_background_4C.png");
+	background-image: url("../img/sparkles/blue_background.jpg");
+	font-family: "effra", Arial, sans-serif;
+	font-weight: 900;
 	color: #ffffff;
 
 }

@@ -8,12 +8,13 @@ section.theme3 {
 	font-family: "proxima-nova", Arial, sans-serif;
 	font-size: 600;
 	background-size: 100%;
-	background-image: url("../img/rain_background.png");
+	background-image: url("../img/sad/blue-rain.jpg");
 	color: #ffffff;
 
 }
 
 body.theme3 {
+	font-family: "proxima-nova", Arial, sans-serif;
 	color: #000000;
 	/*background-color: #f3f3f3;*/
 }
@@ -23,8 +24,8 @@ body.theme3 .expandable .slides .slides-inner {
 }
 
 body.theme3 .expandable nav {
-	float: right;
-	margin: 2em 0;
+	text-align: left;
+	padding: 3em 0 3em 0;
 }
 
 body.theme3 h3 {
@@ -33,7 +34,7 @@ body.theme3 h3 {
 }
 
 body.theme3 h4 {
-	font-weight: 400;
+	font-weight: 600;
 }
 
 body.theme3 h5 {
@@ -43,8 +44,12 @@ body.theme3 h5 {
 
 body.theme3 p {
 	font-weight: 300;
-	font-size: .75em;
+	font-size: 1em;
 	padding-bottom: 2em;
+	width: 35%;
+	line-height: 1;
+	float: right;
+	clear: right;
 }
 
 body.theme3 .slides-inner img {
@@ -59,11 +64,38 @@ body.theme3 .slides-inner img:last-of-type {
 }
 
 body.theme3 #mti {
-	background-color: #f3f3f3;
+	background-size: 100%;
+	background-image: url("../img/sad/blue-rain.jpg");
 }
 
 body.theme3 #theatre {
-	background-color: #e5e4e4;
+	background-size: 100%;
+	background-image: url("../img/sad/gray-rain.jpg");
+}
+
+body.theme3 #theatre .expandable nav a {
+	display: inline-block;
+	font-style: normal;
+	background-color: #ccff02;
+	font-weight: 600;
+	padding:.3em;
+	margin: 0 2em .5em 0;
+	 
+}
+
+body.theme3 #theatre .expandable nav a:hover {
+ border-bottom: #000000 3px solid;
+	 
+}
+
+body.theme3 .fancy {
+	color: #ccff02;
+	font-size: 6em;
+	width: 60%; 
+	float: left;
+	clear: left;
+	text-align: right;
+	padding-bottom: 0;
 }
 
 
