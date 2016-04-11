@@ -35,6 +35,12 @@ body.theme5 h4 {
 body.theme5 h5 {
 	font-weight: 900;
 	margin: 2em 0;
+	background-color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	top: 4em;
+	left: 0;
+	padding-left: 10%;
 }
 
 body.theme5 p {
@@ -56,10 +62,26 @@ body.theme5 .slides-inner img:last-of-type {
 
 body.theme5 #mti {
 	background-color: #ccff02;
+	position: relative;
+
+}
+
+body.theme5 #mti .inner-content {
+	margin-top: 4em;
 }
 
 body.theme5 #theatre {
 	background-color: #25fe01;
+}
+
+body.theme5 #mti .fancy {
+	background-color: #ffffff;
+	display: inline-block;
+	padding-bottom: 0;
+}
+
+body.theme5 .slide-footer a {
+	background-color: #ffffff;
 }
 
 

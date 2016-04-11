@@ -63,7 +63,6 @@ nav a:hover, nav a:active, nav a.current {
 
 .expandable {
 	display: none;
-	position: relative;
 }
 
 .expandable nav a.current {
@@ -76,4 +75,12 @@ nav a:hover, nav a:active, nav a.current {
 
 .expandable .slides > div.current {
 	display: block;
+}
+
+#theatre {
+	overflow: hidden;
+}
+
+#mti {
+	overflow: hidden;
 }

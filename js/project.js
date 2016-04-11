@@ -42,7 +42,7 @@ $( document ).ready(function() {
 		$(this).addClass("current");
 		var mti_nav = $(this).index();
 		// $(".expandable div").eq(mti_nav).addClass("current");
-		$(this).parents(".expandable").find(".slides div").eq(mti_nav).addClass("current");
+		$(this).parents(".expandable").find(".slides div.slide-wrapper").eq(mti_nav).addClass("current");
 
 	}); 
 

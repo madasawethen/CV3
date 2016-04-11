@@ -23,7 +23,7 @@ body.theme3 .expandable .slides .slides-inner {
 	margin: 0 2em 2em;
 }
 
-body.theme3 .expandable nav {
+body.theme3 #theatre nav {
 	text-align: left;
 	padding: 3em 0 3em 0;
 }
@@ -38,11 +38,34 @@ body.theme3 h4 {
 }
 
 body.theme3 h5 {
+	font-size: ;
 	font-weight: 900;
 	margin: 2em 0;
 }
 
-body.theme3 p {
+body.theme3 #mti .inner-content {
+	width: 40%;
+	float: left;
+	/*clear: left;*/
+}
+
+body.theme3 #mti .slide-footer {
+	clear: both;
+	padding-top: 2em;
+}
+
+body.theme3 #mti .next, body.theme3 #mti .next-section {
+	float: right;
+}
+
+
+body.theme3 #mti img {
+	width: 25%;
+	float: right;
+	/*clear: left;*/
+}
+
+body.theme3 #theatre p {
 	font-weight: 300;
 	font-size: 1em;
 	padding-bottom: 2em;
@@ -64,11 +87,14 @@ body.theme3 .slides-inner img:last-of-type {
 }
 
 body.theme3 #mti {
+	overflow: hidden;
 	background-size: 100%;
 	background-image: url("../img/sad/blue-rain.jpg");
+	color: #ffffff;
 }
 
 body.theme3 #theatre {
+	overflow: hidden;
 	background-size: 100%;
 	background-image: url("../img/sad/gray-rain.jpg");
 }
@@ -80,15 +106,17 @@ body.theme3 #theatre .expandable nav a {
 	font-weight: 600;
 	padding:.3em;
 	margin: 0 2em .5em 0;
+	border-bottom: transparent 3px solid;
 	 
 }
 
-body.theme3 #theatre .expandable nav a:hover {
+body.theme3 #theatre .expandable nav a:hover, body.theme3 #theatre .expandable nav a.current {
  border-bottom: #000000 3px solid;
+ color: black;
 	 
 }
 
-body.theme3 .fancy {
+body.theme3 #theatre .fancy {
 	color: #ccff02;
 	font-size: 6em;
 	width: 60%; 
