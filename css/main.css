@@ -84,3 +84,21 @@ nav a:hover, nav a:active, nav a.current {
 #mti {
 	overflow: hidden;
 }
+
+.bright-pink {
+	color: #ff00ff;
+}
+
+.bright-pink.bg {
+	background-color: #ff00ff;
+	color: #000000;
+}
+
+#theatre nav {
+	float: left;
+}
+
+#theatre nav a {
+	display: block;
+	text-align: left;
+}

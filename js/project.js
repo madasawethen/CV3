@@ -69,11 +69,21 @@ $( document ).ready(function() {
 
     if ($("body").attr("id") == "resume") {
         var something = window.location.href;
-        var classname = something.substring(something.indexOf("=")+1);
-        if (classname != "") {
-            $("body").removeClass();
-            $("body").addClass(classname);
-        }
+        var i = something.indexOf("?");
+	        if(i >= 0) {
+	        	var classname = something.substring(something.indexOf("?")+7);
+	        	if (classname != "") {
+	            $("body").removeClass();
+	            $("body").addClass(classname);
+
+	            if (classname == "theme1") {
+	            	$('[data-theme1]').each(function(){
+	  				$(this).addClass($(this).data("theme1"));
+					});
+	            }
+	        }
+	    }
+	        	
     }
     		 
 		    $("#next").click(function(e){

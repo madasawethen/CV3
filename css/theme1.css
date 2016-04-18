@@ -33,6 +33,7 @@ body.theme1 h4 {
 }
 
 body.theme1 h5 {
+	display: inline-block;
 	font-weight: 900;
 	margin: 2em 0;
 }
